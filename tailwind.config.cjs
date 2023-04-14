@@ -20,6 +20,9 @@ const config = {
       }
     }
   },
+  daisyui: {
+    themes: ['emerald']
+  },
   plugins: [require('daisyui')]
 }
 
