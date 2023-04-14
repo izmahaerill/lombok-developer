@@ -6,4 +6,6 @@
   <title>Lombok Developer</title>
 </svelte:head>
 
-<slot />
+<main class="container">
+  <slot />
+</main>
