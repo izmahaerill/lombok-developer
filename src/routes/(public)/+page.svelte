@@ -1,6 +1,10 @@
-<section class="flex min-h-screen flex-col items-center justify-evenly lg:flex-row-reverse">
+<script lang="ts">
+  import { businessDecisions, devProductivity } from '$lib/images'
+</script>
+
+<section class="flex min-h-screen flex-col items-center justify-center gap-10 lg:flex-row-reverse">
   <div class="w-full">
-    <img src="/images/lombok-developer.svg" alt="Digital Solutions Agency" />
+    <img src={devProductivity} alt="Dev Productivity" />
   </div>
   <div class="w-full">
     <h1 class="mb-5 text-4xl font-extrabold md:text-5xl">
@@ -14,5 +18,24 @@
       can help you build a website. Order your Website now!
     </p>
     <button class="btn-primary btn normal-case">Get in Touch</button>
+  </div>
+</section>
+<section class="flex min-h-screen flex-col items-center justify-center gap-10 lg:flex-row">
+  <div class="w-full">
+    <img src={businessDecisions} alt="Business Decisions" />
+  </div>
+  <div class="w-full">
+    <h2 class="mb-5 text-3xl font-bold md:text-4xl">
+      <span class="bg-gradient-to-l from-primary to-neutral bg-clip-text text-transparent">
+        Solutions for Digital Branding Needs for Your Business
+      </span>
+    </h2>
+    <p class="leading-relaxed">
+      Lombok Developer is a group of young people who are creative in interactive multimedia and use
+      it to develop information technology in Lombok and Mataram. They aim to improve people's
+      lives, strengthen economic resilience, and create more business opportunities for digital
+      entrepreneurs. They provide business solutions ranging from design, website development,
+      software development, and application development.
+    </p>
   </div>
 </section>
