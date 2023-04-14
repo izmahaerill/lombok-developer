@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Navbar from '$lib/components/navbar.svelte'
   import '../app.postcss'
 </script>
 
@@ -6,6 +7,7 @@
   <title>Lombok Developer</title>
 </svelte:head>
 
+<Navbar />
 <main class="container">
   <slot />
 </main>
