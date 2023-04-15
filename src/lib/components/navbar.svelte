@@ -2,6 +2,7 @@
   import { page } from '$app/stores'
   import { lombokDeveloper } from '$lib/images'
   import { menu } from '$lib/stores/menu'
+  import Iconify from '@iconify/svelte'
 
   const navLists = $menu
   console.log('🚀 ~ navLists:', navLists)
@@ -22,12 +23,28 @@
     </a>
   </div>
   <div class="flex-none">
-    <ul class="menu rounded-box menu-compact menu-horizontal p-1">
-      {#each navLists as { url, text }}
-        <li class="px-px">
-          <a class="font-medium {path === url && 'active'}" href={url}>{text}</a>
-        </li>
-      {/each}
-    </ul>
+    <div class="hidden lg:block">
+      <ul class="menu rounded-box menu-compact menu-horizontal p-1">
+        {#each navLists as { url, text }}
+          <li class="px-px">
+            <a class="font-medium {path === url && 'active'}" href={url}>{text}</a>
+          </li>
+        {/each}
+      </ul>
+    </div>
+    <div class="lg:hidden">
+      <div class="dropdown-end dropdown">
+        <button class="text-xl transition duration-300 ease-in-out active:scale-90">
+          <Iconify icon="fa6-solid:bars-staggered" />
+        </button>
+        <ul class="dropdown-content menu rounded-box mt-6 w-60 bg-base-100 p-2 shadow">
+          {#each navLists as { url, text }}
+            <li class="py-px">
+              <a class="font-medium {path === url && 'active'}" href={url}>{text}</a>
+            </li>
+          {/each}
+        </ul>
+      </div>
+    </div>
   </div>
 </nav>
