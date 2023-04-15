@@ -6,10 +6,7 @@
   import Iconify from '@iconify/svelte'
 
   const navLists = $menu
-  console.log('🚀 ~ navLists:', navLists)
-
   $: path = $page.url.pathname
-  $: console.log('🚀 ~ path:', path)
 </script>
 
 <nav
