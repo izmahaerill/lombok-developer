@@ -17,7 +17,7 @@ const config = {
     csp: {
       mode: 'hash',
       directives: {
-        'script-src': ['strict-dynamic', 'unsafe-inline', 'https:'],
+        'script-src': ['nonce-random123', 'strict-dynamic', 'unsafe-inline', 'http:', 'https:'],
         'object-src': ['none'],
         'base-uri': ['none']
       }
