@@ -18,8 +18,6 @@ jobs:
     strategy:
       matrix:
         node-version: [18.x]
-    env:
-      PUBLIC_URL: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
