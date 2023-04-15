@@ -18,7 +18,8 @@ const config = {
       mode: 'hash',
       directives: {
         'script-src': ['strict-dynamic', 'unsafe-inline', 'https:'],
-        'object-src': ['none']
+        'object-src': ['none'],
+        'base-uri': ['none']
       }
     },
     // adapter-auto only supports some environments, see https://kit.svelte.dev/docs/adapter-auto for a list.
