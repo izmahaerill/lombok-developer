@@ -1,7 +1,7 @@
 <script lang="ts">
   import { base } from '$app/paths'
   import { page } from '$app/stores'
-  import lombokDeveloper from '$lib/images/lombok-developer.png'
+  import { lombokDeveloper } from '$lib/images'
   import { menu } from '$lib/stores/menu'
   import Iconify from '@iconify/svelte'
 
