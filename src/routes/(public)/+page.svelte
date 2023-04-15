@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { base } from '$app/paths'
   import { businessDecisions, devProductivity } from '$lib/images'
 </script>
 
@@ -17,7 +18,7 @@
       Enjoy the convenience of managing a website, equivalent to having a professional IT staff who
       can help you build a website. Order your Website now!
     </p>
-    <button class="btn-primary btn normal-case">Get in Touch</button>
+    <a class="btn-primary btn normal-case" href={`${base}/contact`}>Get in Touch</a>
   </div>
 </section>
 <section class="flex min-h-screen flex-col items-center justify-center gap-10 lg:flex-row">
