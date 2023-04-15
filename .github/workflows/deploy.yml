@@ -37,4 +37,3 @@ jobs:
           personal_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: ./build
-          enable_jekyll: true
