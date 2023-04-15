@@ -5,7 +5,7 @@
 
 <section class="flex min-h-screen flex-col items-center justify-center gap-10 lg:flex-row-reverse">
   <div class="w-full">
-    <img src={devProductivity} alt="Dev Productivity" />
+    <img class="h-fit w-fit" src={devProductivity} alt="Dev Productivity" />
   </div>
   <div class="w-full">
     <h1 class="mb-5 text-4xl font-extrabold md:text-5xl">
@@ -23,7 +23,7 @@
 </section>
 <section class="flex min-h-screen flex-col items-center justify-center gap-10 lg:flex-row">
   <div class="w-full">
-    <img src={businessDecisions} alt="Business Decisions" />
+    <img class="h-fit w-fit" src={businessDecisions} alt="Business Decisions" />
   </div>
   <div class="w-full">
     <h2 class="mb-5 text-3xl font-bold md:text-4xl">

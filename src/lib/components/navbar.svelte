@@ -32,7 +32,9 @@
     </div>
     <div class="lg:hidden">
       <div class="dropdown-end dropdown">
-        <button class="text-xl transition duration-300 ease-in-out active:scale-90">
+        <button
+          class="text-xl transition duration-300 ease-in-out active:scale-90"
+          aria-label="Hamburger Menu">
           <Iconify icon="fa6-solid:bars-staggered" />
         </button>
         <ul class="dropdown-content menu rounded-box mt-6 w-60 bg-base-100 p-2 shadow">
