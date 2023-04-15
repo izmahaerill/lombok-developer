@@ -1,5 +1,13 @@
 <script lang="ts">
+  import { page } from '$app/stores'
   import { lombokDeveloper } from '$lib/images'
+  import { menu } from '$lib/stores/menu'
+
+  const navLists = $menu
+  console.log('🚀 ~ navLists:', navLists)
+
+  $: path = $page.url.pathname
+  $: console.log('🚀 ~ path:', path)
 </script>
 
 <nav
@@ -14,11 +22,12 @@
     </a>
   </div>
   <div class="flex-none">
-    <ul class="menu rounded-box menu-horizontal p-1">
-      <li><a href="/">Item 1</a></li>
-      <li><a href="/">Item 1</a></li>
-      <li><a href="/">Item 1</a></li>
-      <li><a href="/">Item 1</a></li>
+    <ul class="menu rounded-box menu-compact menu-horizontal p-1">
+      {#each navLists as { url, text }}
+        <li class="px-px">
+          <a class="font-medium {path === url && 'active'}" href={url}>{text}</a>
+        </li>
+      {/each}
     </ul>
   </div>
 </nav>
