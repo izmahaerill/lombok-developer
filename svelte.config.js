@@ -17,7 +17,8 @@ const config = {
     csp: {
       mode: 'hash',
       directives: {
-        'script-src': ['self']
+        'script-src': ['strict-dynamic', 'unsafe-inline', 'https:'],
+        'object-src': ['none']
       }
     },
     // adapter-auto only supports some environments, see https://kit.svelte.dev/docs/adapter-auto for a list.
