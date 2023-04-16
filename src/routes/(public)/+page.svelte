@@ -3,7 +3,7 @@
   import { businessDecisions, devProductivity } from '$lib/images'
 </script>
 
-<section class="flex min-h-screen flex-col items-center justify-center gap-10 lg:flex-row-reverse">
+<section class=" container flex min-h-screen flex-col items-center justify-center gap-10 lg:flex-row-reverse">
   <div class="w-full">
     <img src={devProductivity} alt="Dev Productivity" />
   </div>
@@ -21,7 +21,7 @@
     <a class="btn-primary btn normal-case" href={`${base}/contact`}>Get in Touch</a>
   </div>
 </section>
-<section class="flex min-h-screen flex-col items-center justify-center gap-10 lg:flex-row">
+<section class=" container flex min-h-screen flex-col items-center justify-center gap-10 lg:flex-row">
   <div class="w-full">
     <img src={businessDecisions} alt="Business Decisions" />
   </div>
