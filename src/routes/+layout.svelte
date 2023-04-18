@@ -8,6 +8,8 @@
 </svelte:head>
 
 <Navbar />
-<main>
+<main class="container">
   <slot />
 </main>
+<slot />
+
