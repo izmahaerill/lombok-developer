@@ -14,7 +14,8 @@
     "format": "prettier --plugin-search-dir . --write ."
   },
   "dependencies": {
-    "daisyui": "^2.51.5"
+    "daisyui": "^2.51.5",
+    "swiper": "^9.2.3"
   },
   "devDependencies": {
     "@iconify/svelte": "^3.1.1",
