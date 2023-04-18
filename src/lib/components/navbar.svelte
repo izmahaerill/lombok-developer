@@ -1,11 +1,10 @@
 <script lang="ts">
   import { base } from '$app/paths'
   import { page } from '$app/stores'
+  import { navLists } from '$lib/constants'
   import { lombokDeveloper } from '$lib/images'
-  import { menu } from '$lib/stores/menu'
   import Iconify from '@iconify/svelte'
 
-  const navLists = $menu
   $: path = $page.url.pathname
 </script>
 

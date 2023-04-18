@@ -2,7 +2,7 @@
 // for information about these interfaces
 declare global {
   namespace App {
-    interface PublicSiteMenu {
+    interface NavLists {
       id: string
       text: string
       url: string
