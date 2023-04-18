@@ -70,7 +70,7 @@
       </p>
     </div>
   </section>
-  <section class="mb-32 flex flex-col items-center text-center container">
+  <section class="mb-32 container flex flex-col items-center text-center">
     <h2 class="mb-5 text-3xl font-bold md:text-4xl">
       <span class="bg-gradient-to-l from-primary to-neutral bg-clip-text text-transparent">
         Lombok Developer Services
@@ -96,5 +96,5 @@
       {/each}
     </div>
   </section>
-  <SliderExample />
+    <SliderExample />
 </div>
