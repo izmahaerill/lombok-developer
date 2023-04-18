@@ -13,8 +13,6 @@
             <p class="mb-5">The Unique Solutions for Your Business, The Best Solutions For Your Business</p>
             <button class="btn btn-outline text-white">Get started</button>
             <button class="btn btn-outline btn-success px-12">Home</button>
-
-
           </div>
         </div>
       </div>
@@ -26,7 +24,7 @@
         <div class="flex-col md:flex lg:flex-row-reverse">
             <img class=" rounded-sm shadow-2xl border-r-4 border-emerald-500" src="https://images.unsplash.com/photo-1606857521015-7f9fcf423740?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG9mZmljZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60" alt="">
             <div class=" pl-2">
-                <!-- <iconify class="w-32 h-32" icon="material-symbols:home-app-logo"></iconify> -->
+                <!-- <iconify class=" text-4xl mb-5 mr-2 text-sky-900" icon="material-symbols:home-app-logo"></iconify> -->
                 <h1 class="text-4xl font-semibold mt-10 lg:mt-2 mb-2 ">ABOUT US</h1>
                 <hr>
                 <p class="py-5">We are a web design and digital marketing company based in Lombok, Indonesia. We have been designing many websites since 2004.</p>
