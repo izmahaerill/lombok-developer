@@ -4,24 +4,10 @@
 
 </script>
 
-<section>
-    <div class="hero min-h-screen" style="background-image: url(https://wp.w3layouts.com/workcore/wp-content/themes/workcore/assets/images/banner5.jpg);">
-        <div class="hero-overlay bg-opacity-60"></div>
-        <div class="hero-content text-center text-neutral-content">
-          <div class="max-w-md">
-            <h1 class="mb-5 text-5xl font-bold"> <span class="text-blue-700">Lombok </span>Developer</h1>
-            <p class="mb-5">The Unique Solutions for Your Business, The Best Solutions For Your Business</p>
-            <button class="btn btn-outline text-white">Get started</button>
-            <button class="btn btn-outline btn-success px-12">Home</button>
-          </div>
-        </div>
-      </div>
-</section>
 
 
 
-
-<section class="container mt-32 mb-20">
+<section class="container py-32">
     <div class="py-20">
         <div class="flex-col md:flex lg:flex-row-reverse">
             <img class=" rounded-sm shadow-2xl border-r-4 border-emerald-500" src="https://images.unsplash.com/photo-1606857521015-7f9fcf423740?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG9mZmljZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60" alt="">
@@ -79,17 +65,47 @@
 </section>
 
 
-<section class="container mb-32 py-20">
-    <p class="font-semibold text-4xl text-center my-10">Our Creative Team.</p>
-    <div class="card m-auto w-64 bg-base-100 shadow-xl">
-        <figure><img src="https://images.unsplash.com/photo-1600486913747-55e5470d6f40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60" alt="Man" /></figure>
-        <div class="card-body">
-          <h2 class="card-title">UI UX Developer</h2>
-          <p>Hulami Haekal</p>
-          <div class="card-actions justify-end">
+<section class="container mb-32 py-20 grid">
+  <p class="font-semibold text-4xl text-center my-10">Our Creative Team.</p>
+
+  <div class=" grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-3">
+    <div>
+      <div class="card m-auto w-64 bg-base-100 shadow-xl mb-5">
+          <figure><img src="https://images.unsplash.com/photo-1600486913747-55e5470d6f40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60" alt="Man" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">UI UX Developer</h2>
+            <p>Hulami Haekal</p>
+            <div class="card-actions justify-end">
+            </div>
           </div>
         </div>
-      </div>
+    </div>
+  
+    <div>
+      <div class="card m-auto w-64 bg-base-100 shadow-xl mb-5">
+          <figure><img src="https://images.unsplash.com/photo-1600486913747-55e5470d6f40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60" alt="Man" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">Frontend developer</h2>
+            <p>Bani Taufik</p>
+            <div class="card-actions justify-end">
+            </div>
+          </div>
+        </div>
+  
+    </div>
+  
+    <div>
+      <div class="card m-auto w-64 bg-base-100 shadow-xl">
+          <figure><img src="https://images.unsplash.com/photo-1600486913747-55e5470d6f40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60" alt="Man" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">Backend developer</h2>
+            <p>M sukrillah</p>
+            <div class="card-actions justify-end">
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
 </section>
 
 
