@@ -26,14 +26,6 @@ export const serviceLists: App.ServiceLists[] = [
     description: 'Lorem ipsum dolor sit amet consectetur'
   },
   {
-    title: 'Maintenance',
-    description: 'Lorem ipsum dolor sit amet consectetur'
-  },
-  {
-    title: 'Design',
-    description: 'Lorem ipsum dolor sit amet consectetur'
-  },
-  {
     title: 'Hosting',
     description: 'Lorem ipsum dolor sit amet consectetur'
   }

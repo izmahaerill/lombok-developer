@@ -8,14 +8,14 @@
 </script>
 
 <section>
-  <div class="hero min-h-screen" style="background-image: url(https://wp.w3layouts.com/workcore/wp-content/themes/workcore/assets/images/banner5.jpg);">
+  <div class="hero min-h-screen" style="background-image: url(https://media.istockphoto.com/id/681735120/photo/top-view-of-mixed-race-business-team-sitting-at-the-table-at-loft-office-and-working-woman.jpg?b=1&s=170667a&w=0&k=20&c=aO5uYK0cEHQZ3LYGLEfqMHlaE7pSVrU8oAdsYTkBn3o=);">
       <div class="hero-overlay bg-opacity-60"></div>
       <div class="hero-content text-center text-neutral-content">
         <div class="max-w-md">
           <h1 class="mb-5 text-5xl font-bold"> <span>Lombok </span>Developer</h1>
           <p class="mb-5">The Unique Solutions for Your Business, The Best Solutions For Your Business</p>
           <button class="btn btn-outline text-white">Get started</button>
-
+          <a class="btn btn-outline btn-success" href={`${base}/contact`}>Get in Touch</a>
         </div>
       </div>
     </div>
@@ -25,29 +25,29 @@
   <section
     class="py-52 container">
     <div class="w-full">
-      <h1 class="mb-5 text-4xl font-extrabold md:text-4xl">
+      <h1 class="mb-5 text-4xl font-extrabold md:text-4xl lg:text-center">
         <span class="bg-gradient-to-r from-primary to-neutral bg-clip-text text-transparent">
           Your Digital Business
         </span> Solution Partner
       </h1>
-      <p class="mb-10 leading-relaxed">
+      <p class="mb-10 leading-relaxed text-slate-500">
         Website development services from Lombok Developer are ready to help you master the online
         world. Enjoy the convenience of managing a website, which is equivalent to having a
         professional IT staff who can help you build a website. Order your website now!
       </p>
-      <a class="btn btn-outline btn-success px-4 normal-case" href={`${base}/contact`}>Get in Touch</a>
     </div>
   </section>
 
 
 
-  <section class=" bg-slate-500 text-white  mb-40 flex flex-col  items-center justify-center gap-10 lg:flex-row p-10">
-    <div class="w-full">
+  <section class="  mb-40 flex flex-col  items-center justify-center lg:flex-row ">
+    <div class="w-full container bg-emerald-500 py-28">
       <img class="h-fit w-fit" src={businessDecisions} alt="Business Decisions" />
     </div>
-    <div class="w-full">
+
+    <div class="w-full container text-white bg-slate-700 py-10">
       <h2 class="mb-5 text-3xl font-bold md:text-4xl">
-        <span class="bg-gradient-to-r from-primary to-white bg-clip-text text-transparent">
+        <span class="bg-gradient-to-r from-white to-primary bg-clip-text text-transparent">
           Solutions for Your Business's Digital Branding Needs
         </span>
       </h2>
@@ -62,36 +62,66 @@
   </section>
 
 
-
-  <section class="container mb-32 flex flex-col items-center text-center">
-    <h2 class="mb-5 text-3xl font-bold md:text-4xl">
-      <span class="bg-gradient-to-l from-primary to-neutral bg-clip-text text-transparent">
-        Lombok Developer Services
+  <section class="container pt-20">
+    <h2 class=" text-3xl font-bold md:text-4xl text-center">
+      <span class="bg-gradient-to-r from-neutral to-primary bg-clip-text text-transparent">
+          Prince website 
       </span>
     </h2>
-    <div class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
+
+    <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4 py-10">
       {#each serviceLists as service}
-        <div class="card  h-72 w-72 shadow">
-          <figure class="px-5 pt-10">
-            <img class="h-fit w-fit" src={businessDecisions} alt="Business Decisions" />
-          </figure>
+        <div class="card shadow p-2 rounded-sm w-62 cursor-pointer text-center">
+          <p class="bg-slate-500 py-4 mb-10 text-white text-center text-md">PREMIUM</p>
+          <p class="text-emerald-400 text-lg">RP 500.000.00</p>
+          <p>Gratis Domain</p>
+          <p> Max 10 Halaman</p>
+          <p>Hosting 2GB</p>
+          <p>Google Analis / Console</p>
           <div class="card-body items-center cursor-pointer">
-            <h2 class="card-title">{service.title}</h2>
-            <!-- <p class="leading-relaxed">{service.description}</p> -->
           </div>
+          <a class="btn btn-outline btn-success rounded-none" href={`${base}/service`}>Detail</a>
         </div>
       {/each}
     </div>
   </section>
 
-  <section class="container">
-    <h2 class="mb-5 text-3xl font-bold md:text-4xl text-center">
-      <span class="bg-gradient-to-l from-neutral to-primary bg-clip-text text-transparent">
-        Recent Project
+
+
+    <section class="container mb-40 mt-40 flex flex-col  text-center">
+    <h2 class="mb-20 text-3xl font-bold md:text-4xl">
+      <span class="bg-gradient-to-l from-primary to-neutral bg-clip-text text-transparent">
+        Lombok Developer Services
       </span>
     </h2>
+    <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
+      {#each serviceLists as service}
+        <div class="card rounded-sm h-62 w-62 shadow pt-4">
+          <figure class="px-5 pt-5">
+            <img class="h-fit w-fit" src={businessDecisions} alt="Business Decisions" />
+          </figure>
+          <div class="card-body items-center cursor-pointer">
+            <h2 class="card-title text-base font-semibold">{service.title}</h2>
+            <!-- <p class="leading-relaxed">{service.description}</p> -->
+          </div>
+          <a class="btn btn-outline btn-success w-52 m-auto my-2 normal-case rounded-full" href={`${base}/service`}>Read More</a>
+        </div>
+      {/each}
+    </div>
+  </section>
+
+  <section class="container pt-32">
+    <h2 class=" text-3xl font-bold md:text-4xl text-center">
+      <span class="bg-gradient-to-l from-neutral to-primary bg-clip-text text-transparent">
+        Galery
+      </span>
+    </h2>
+    <p class="text-center text-slate-500">Please check some of the website creation work that we have done, you can use it as a web design reference.</p>
     <SliderExample />
   </section>
+
+
+
 
 
 

@@ -9,7 +9,7 @@
         <div class="hero-overlay bg-opacity-60"></div>
         <div class="hero-content text-center text-neutral-content">
           <div class="max-w-md">
-            <h1 class="mb-5 text-5xl font-bold"> <span>Lombok </span>Developer</h1>
+            <h1 class="mb-5 text-5xl font-bold"> <span class="text-blue-700">Lombok </span>Developer</h1>
             <p class="mb-5">The Unique Solutions for Your Business, The Best Solutions For Your Business</p>
             <button class="btn btn-outline text-white">Get started</button>
             <button class="btn btn-outline btn-success px-12">Home</button>
@@ -17,6 +17,8 @@
         </div>
       </div>
 </section>
+
+
 
 
 <section class="container mt-32 mb-20">
@@ -72,9 +74,7 @@
               <div class="stat-value">1,200</div>
               <div class="stat-desc">↘︎ 90 (14%)</div>
             </div>
-        </div>
-  
-        
+        </div>     
       </div>
 </section>
 
