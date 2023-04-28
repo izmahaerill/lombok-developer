@@ -9,19 +9,59 @@
   // Docs: https://swiperjs.com/
 </script>
 
-<swiper-container
-  class="flex min-h-screen items-center justify-start"
-  navigation="true"
-  loop="true">
-  <swiper-slide>Slide 1</swiper-slide>
-  <swiper-slide>Slide 2</swiper-slide>
-  <swiper-slide>Slide 3</swiper-slide>
-  <swiper-slide>Slide 4</swiper-slide>
-  <swiper-slide>Slide 5</swiper-slide>
+<swiper-container class="flex py-20" navigation="true" loop="true">
+  <swiper-slide>
+    <div class="items-center justify-center lg:flex">
+      <img
+        src="https://media.istockphoto.com/id/1399624722/id/foto/keragaman-bisnis-tim-multi-etnis-dalam-diskusi.jpg?s=612x612&w=0&k=20&c=q98KNIKGRkeww0orm4Z0hCciLGcTDxlHI-jNEv3XjU0="
+        alt="" />
+      <p class="px-10 text-white">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto asperiores dolor cum
+        harum maiores modi numquam ex vitae, illum doloribus.
+      </p>
+    </div>
+  </swiper-slide>
+
+  <swiper-slide>
+    <div class="items-center justify-center lg:flex">
+      <img
+        src="https://media.istockphoto.com/id/1399624722/id/foto/keragaman-bisnis-tim-multi-etnis-dalam-diskusi.jpg?s=612x612&w=0&k=20&c=q98KNIKGRkeww0orm4Z0hCciLGcTDxlHI-jNEv3XjU0="
+        alt="" />
+          <p class="px-10 text-white">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto asperiores dolor cum
+            harum maiores modi numquam ex vitae, illum doloribus.
+          </p>
+    </div>
+  </swiper-slide>
+
+  <swiper-slide>
+    <div class="items-center justify-center lg:flex">
+      <img
+        src="https://media.istockphoto.com/id/1399624722/id/foto/keragaman-bisnis-tim-multi-etnis-dalam-diskusi.jpg?s=612x612&w=0&k=20&c=q98KNIKGRkeww0orm4Z0hCciLGcTDxlHI-jNEv3XjU0="
+        alt="" />
+      <p class="px-10 text-white">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto asperiores dolor cum
+        harum maiores modi numquam ex vitae, illum doloribus.
+      </p>
+    </div>
+  </swiper-slide>
+
+  <swiper-slide>
+    <div class=" items-center justify-center lg:flex">
+      <img
+        src="https://media.istockphoto.com/id/1399624722/id/foto/keragaman-bisnis-tim-multi-etnis-dalam-diskusi.jpg?s=612x612&w=0&k=20&c=q98KNIKGRkeww0orm4Z0hCciLGcTDxlHI-jNEv3XjU0="
+        alt="" />
+      <p class="px-10 text-white">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto asperiores dolor cum
+        harum maiores modi numquam ex vitae, illum doloribus.
+      </p>
+    </div>
+  </swiper-slide>
 </swiper-container>
 
 <style lang="postcss">
   swiper-slide {
     text-align: center;
+    @apply bg-slate-900;
   }
 </style>
