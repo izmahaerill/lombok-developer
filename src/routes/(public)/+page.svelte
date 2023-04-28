@@ -42,7 +42,7 @@
 </section>
 
 <section class="flex flex-col items-center justify-center lg:flex-row">
-  <div class="container bg-primary py-16 md:py-10 lg:py-24">
+  <div class="container bg-primary py-16 md:py-10 lg:py-28">
     <img class="h-fit w-fit" src={businessDecisions} alt="Business Decisions" />
   </div>
   <div class="container bg-neutral py-20 text-neutral-content md:py-28 lg:py-14">
