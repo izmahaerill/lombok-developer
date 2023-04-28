@@ -1,28 +1,24 @@
 <script lang="ts">
-  import { base } from '$app/paths'
-  import SliderExample from '$lib/components/slider-example.svelte'
   import { serviceLists } from '$lib/constants'
-  import { businessDecisions, devProductivity } from '$lib/images'
-  import Iconify from '@iconify/svelte'
+  import { devProductivity } from '$lib/images'
 </script>
 
-<section class="container flex flex-col py-40 text-center">
-  <h2 class="mb-20 text-3xl font-bold md:text-4xl">
-    <span class="bg-gradient-to-l from-primary to-neutral bg-clip-text text-transparent">
+<section class="container py-32">
+  <h2 class="mb-10 text-center text-4xl font-bold">
+    <span class="bg-gradient-to-r from-primary to-neutral bg-clip-text text-transparent">
       Lombok Developer Services
     </span>
   </h2>
-  <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
+  <div class="flex flex-wrap items-center justify-center gap-5">
     {#each serviceLists as service}
-      <div class="h-62 w-62 card rounded-sm pt-4 shadow">
+      <div class="card-bordered card w-full md:w-5/12 lg:w-1/3">
         <figure class="px-5 pt-5">
-          <img class="h-fit w-fit" src={businessDecisions} alt="Business Decisions" />
+          <img class="h-fit w-fit" src={devProductivity} alt="Dev Productivity" />
         </figure>
-        <div class="card-body cursor-pointer items-center">
-          <h2 class="card-title text-base font-semibold">{service.title}</h2>
-          <p>{service.description}</p>
+        <div class="card-body">
+          <h2 class="card-title">{service.title}</h2>
+          <p class="leading-relaxed">{service.description}</p>
         </div>
-        <!-- <a class="btn btn-outline btn-success w-52 m-auto my-2 normal-case rounded-full" href={`${base}/service`}>Read More</a> -->
       </div>
     {/each}
   </div>
