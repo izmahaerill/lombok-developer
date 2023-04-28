@@ -8,7 +8,4 @@
 </svelte:head>
 
 <Navbar />
-<main>
-  <slot />
-</main>
-<!-- <slot /> -->
+<slot />
