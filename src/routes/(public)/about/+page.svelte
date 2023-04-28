@@ -1,11 +1,7 @@
 <script>
     import Iconify from '@iconify/svelte'
     import { businessDecisions, devProductivity } from '$lib/images'
-
 </script>
-
-
-
 
 <section class="container py-32">
     <div class="py-20">
@@ -91,7 +87,6 @@
             </div>
           </div>
         </div>
-  
     </div>
   
     <div>
@@ -107,5 +102,3 @@
     </div>
   </div>
 </section>
-
-
