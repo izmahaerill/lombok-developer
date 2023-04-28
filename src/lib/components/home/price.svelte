@@ -2,7 +2,7 @@
   import { base } from '$app/paths'
 </script>
 
-<div class="card w-60 shadow-xl">
+<div class="card-bordered card w-full md:w-5/12 lg:w-1/3">
   <div class="card-body">
     <h2 class="card-title">PREMIUM</h2>
     <p class="text-lg font-medium text-primary">Rp 500.000.00</p>
