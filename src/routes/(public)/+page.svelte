@@ -105,7 +105,7 @@
       Galery
     </span>
   </h2>
-  <p>
+  <p class="mb-10 leading-relaxed">
     Please check some of the website creation work that we have done, you can use it as a web design
     reference.
   </p>
