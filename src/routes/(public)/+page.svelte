@@ -20,28 +20,25 @@
         <p class="mb-16 font-medium leading-relaxed lg:mb-10">
           The Unique Solutions for Your Business, The Best Solutions For Your Business.
         </p>
-        <div class="space-x-5">
-          <a class="btn capitalize" href={`${base}/services`}>Get started</a>
-          <a class="btn-primary btn capitalize" href={`${base}/contact`}>Get in touch</a>
-        </div>
+        <a class="btn-outline btn-primary btn-wide btn capitalize" href={`${base}/contact`}>
+          Get in touch
+        </a>
       </div>
     </div>
   </div>
 </section>
 
-<section class="container py-52">
-  <div class="text-center">
-    <h2 class="mb-5 text-4xl font-bold">
-      <span class="bg-gradient-to-r from-primary to-neutral bg-clip-text text-transparent">
-        Your Digital Business Solution Partner
-      </span>
-    </h2>
-    <p class="leading-relaxed">
-      Website development services from Lombok Developer are ready to help you master the online
-      world. Enjoy the convenience of managing a website, which is equivalent to having a
-      professional IT staff who can help you build a website. Order your website now!
-    </p>
-  </div>
+<section class="container py-52 text-center">
+  <h2 class="mb-5 text-4xl font-bold">
+    <span class="bg-gradient-to-r from-primary to-neutral bg-clip-text text-transparent">
+      Your Digital Business Solution Partner
+    </span>
+  </h2>
+  <p class="leading-relaxed">
+    Website development services from Lombok Developer are ready to help you master the online
+    world. Enjoy the convenience of managing a website, which is equivalent to having a professional
+    IT staff who can help you build a website. Order your website now!
+  </p>
 </section>
 
 <section class="flex flex-col items-center justify-center lg:flex-row">
