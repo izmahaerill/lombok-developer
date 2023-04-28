@@ -68,7 +68,7 @@
 <section class="container mb-32 py-20 grid">
   <p class="font-semibold text-4xl text-center my-10">Our Creative Team.</p>
 
-  <div class=" grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-3">
+  <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
     <div>
       <div class="card m-auto w-64 bg-base-100 shadow-xl mb-5">
           <figure><img src="https://images.unsplash.com/photo-1600486913747-55e5470d6f40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60" alt="Man" /></figure>

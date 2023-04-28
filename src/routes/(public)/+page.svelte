@@ -41,7 +41,7 @@
 
 
   <section class="  mb-40 flex flex-col  items-center justify-center lg:flex-row ">
-    <div class="w-full container bg-emerald-500 py-28">
+    <div class="w-full container bg-emerald-500 py-24">
       <img class="h-fit w-fit" src={businessDecisions} alt="Business Decisions" />
     </div>
 
@@ -69,16 +69,16 @@
       </span>
     </h2>
 
-    <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4 py-10">
+    <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4 py-10 shadow-sm">
       {#each serviceLists as service}
-        <div class="card shadow p-2 rounded-sm w-62 cursor-pointer text-center">
-          <p class="bg-slate-500 py-4 mb-10 text-white text-center text-md">PREMIUM</p>
+        <div class="card shadow  rounded-sm w-62 cursor-pointer text-center">
+          <p class="bg-slate-500 py-2 mb-10 text-white text-center text-2xl">PREMIUM</p>
           <p class="text-emerald-400 text-lg">RP 500.000.00</p>
+          <div class="text-slate-400 py-5">
           <p>Gratis Domain</p>
           <p> Max 10 Halaman</p>
           <p>Hosting 2GB</p>
           <p>Google Analis / Console</p>
-          <div class="card-body items-center cursor-pointer">
           </div>
           <a class="btn btn-outline btn-success rounded-none" href={`${base}/service`}>Detail</a>
         </div>
