@@ -1,7 +1,6 @@
 import { base } from '$app/paths'
 import Iconify from '@iconify/svelte'
 
-
 export const navLists: App.NavLists[] = [
   { id: 'products', text: 'Products', url: `${base}/products` },
   { id: 'services', text: 'Services', url: `${base}/services` },
@@ -15,7 +14,6 @@ export const serviceLists: App.ServiceLists[] = [
   {
     title: 'Web Development',
     description: 'Lorem ipsum dolor sit amet consectetur'
-    
   },
   {
     title: 'Mobile Development',
