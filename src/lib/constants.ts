@@ -1,5 +1,4 @@
 import { base } from '$app/paths'
-import Iconify from '@iconify/svelte'
 
 export const navLists: App.NavLists[] = [
   { id: 'products', text: 'Products', url: `${base}/products` },
