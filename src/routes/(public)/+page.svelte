@@ -1,37 +1,42 @@
 <script lang="ts">
   import { base } from '$app/paths'
+  import Price from '$lib/components/home/price.svelte'
   import SliderExample from '$lib/components/slider-example.svelte'
   import { serviceLists } from '$lib/constants'
   import { businessDecisions, devProductivity } from '$lib/images'
-  import Iconify from '@iconify/svelte'
 </script>
 
 <section>
   <div
-    class="hero min-h-screen"
-    style="background-image: url(https://media.istockphoto.com/id/681735120/photo/top-view-of-mixed-race-business-team-sitting-at-the-table-at-loft-office-and-working-woman.jpg?b=1&s=170667a&w=0&k=20&c=aO5uYK0cEHQZ3LYGLEfqMHlaE7pSVrU8oAdsYTkBn3o=);">
-    <div class="hero-overlay bg-opacity-60" />
+    class="hero min-h-screen bg-[url('https://images.pexels.com/photos/3184325/pexels-photo-3184325.jpeg')] bg-top">
+    <div class="hero-overlay backdrop-blur-sm backdrop-brightness-50" />
     <div class="hero-content text-center text-neutral-content">
-      <div class="max-w-md">
-        <h1 class="mb-5 text-5xl font-bold"><span>Lombok </span>Developer</h1>
-        <p class="mb-5">
-          The Unique Solutions for Your Business, The Best Solutions For Your Business
+      <div class="md:max-w-lg lg:max-w-xl">
+        <h1 class="mb-4 text-4xl font-extrabold md:text-5xl lg:text-6xl">
+          <span class="bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent">
+            Lombok Developer
+          </span>
+        </h1>
+        <p class="mb-16 font-medium leading-relaxed lg:mb-10">
+          The Unique Solutions for Your Business, The Best Solutions For Your Business.
         </p>
-        <button class="btn-outline btn text-white">Get started</button>
-        <a class="btn-outline btn-success btn" href={`${base}/contact`}>Get in Touch</a>
+        <div class="space-x-5">
+          <a class="btn capitalize" href={`${base}/services`}>Get started</a>
+          <a class="btn-primary btn capitalize" href={`${base}/contact`}>Get in touch</a>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
 <section class="container py-52">
-  <div class="w-full">
-    <h1 class="mb-5 text-4xl font-extrabold md:text-4xl lg:text-center">
+  <div class="text-center">
+    <h2 class="mb-5 text-4xl font-bold">
       <span class="bg-gradient-to-r from-primary to-neutral bg-clip-text text-transparent">
-        Your Digital Business
-      </span> Solution Partner
-    </h1>
-    <p class="mb-10 leading-relaxed text-slate-500">
+        Your Digital Business Solution Partner
+      </span>
+    </h2>
+    <p class="leading-relaxed">
       Website development services from Lombok Developer are ready to help you master the online
       world. Enjoy the convenience of managing a website, which is equivalent to having a
       professional IT staff who can help you build a website. Order your website now!
@@ -39,14 +44,13 @@
   </div>
 </section>
 
-<section class="  mb-40 flex flex-col items-center justify-center lg:flex-row">
-  <div class="container w-full bg-emerald-500 py-24">
+<section class="flex flex-col items-center justify-center lg:flex-row">
+  <div class="container bg-primary py-16 md:py-10 lg:py-24">
     <img class="h-fit w-fit" src={businessDecisions} alt="Business Decisions" />
   </div>
-
-  <div class="container w-full bg-slate-700 py-10 text-white">
-    <h2 class="mb-5 text-3xl font-bold md:text-4xl">
-      <span class="bg-gradient-to-r from-white to-primary bg-clip-text text-transparent">
+  <div class="container bg-neutral py-20 text-neutral-content md:py-28 lg:py-14">
+    <h2 class="mb-5 text-4xl font-bold">
+      <span class="bg-gradient-to-r from-primary to-neutral-content bg-clip-text text-transparent">
         Solutions for Your Business's Digital Branding Needs
       </span>
     </h2>
@@ -60,61 +64,51 @@
   </div>
 </section>
 
-<section class="container pt-20">
-  <h2 class=" text-center text-3xl font-bold md:text-4xl">
+<section class="container py-52">
+  <h2 class="mb-10 text-center text-4xl font-bold">
     <span class="bg-gradient-to-r from-neutral to-primary bg-clip-text text-transparent">
-      Prince website
+      Prince Website
     </span>
   </h2>
-
-  <div class="grid grid-cols-1 gap-5 py-10 shadow-sm md:grid-cols-2 lg:grid-cols-4">
-    {#each serviceLists as service}
-      <div class="w-62 card cursor-pointer rounded-sm text-center shadow">
-        <p class="mb-10 bg-slate-500 py-2 text-center text-2xl text-white">PREMIUM</p>
-        <p class="text-lg text-emerald-400">RP 500.000.00</p>
-        <div class="py-5 text-slate-400">
-          <p>Gratis Domain</p>
-          <p>Max 10 Halaman</p>
-          <p>Hosting 2GB</p>
-          <p>Google Analis / Console</p>
-        </div>
-        <a class="btn-outline btn-success btn rounded-none" href={`${base}/service`}>Detail</a>
-      </div>
-    {/each}
+  <div class="flex flex-wrap items-center justify-center gap-5">
+    <Price />
+    <Price />
+    <Price />
+    <Price />
   </div>
 </section>
 
-<section class="container mb-40 mt-40 flex flex-col text-center">
-  <h2 class="mb-20 text-3xl font-bold md:text-4xl">
-    <span class="bg-gradient-to-l from-primary to-neutral bg-clip-text text-transparent">
+<section class="container">
+  <h2 class="mb-10 text-center text-4xl font-bold">
+    <span class="bg-gradient-to-r from-primary to-neutral bg-clip-text text-transparent">
       Lombok Developer Services
     </span>
   </h2>
-  <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
+  <div class="flex flex-wrap items-center justify-center gap-5">
     {#each serviceLists as service}
-      <div class="h-62 w-62 card rounded-sm pt-4 shadow">
+      <div class="card-bordered card w-full md:w-5/12 lg:w-1/3">
         <figure class="px-5 pt-5">
-          <img class="h-fit w-fit" src={businessDecisions} alt="Business Decisions" />
+          <img class="h-fit w-fit" src={devProductivity} alt="Dev Productivity" />
         </figure>
-        <div class="card-body cursor-pointer items-center">
-          <h2 class="card-title text-base font-semibold">{service.title}</h2>
-          <!-- <p class="leading-relaxed">{service.description}</p> -->
+        <div class="card-body">
+          <h2 class="card-title">{service.title}</h2>
+          <p class="leading-relaxed">{service.description}</p>
+          <a class="btn-outline btn-primary btn-block btn capitalize" href={`${base}/services`}>
+            Read More
+          </a>
         </div>
-        <a
-          class="btn-outline btn-success btn m-auto my-2 w-52 rounded-full normal-case"
-          href={`${base}/service`}>Read More</a>
       </div>
     {/each}
   </div>
 </section>
 
-<section class="container pt-32">
-  <h2 class=" text-center text-3xl font-bold md:text-4xl">
-    <span class="bg-gradient-to-l from-neutral to-primary bg-clip-text text-transparent">
+<section class="py-52 text-center">
+  <h2 class="mb-5 text-4xl font-bold">
+    <span class="bg-gradient-to-r from-neutral to-primary bg-clip-text text-transparent">
       Galery
     </span>
   </h2>
-  <p class="text-center text-slate-500">
+  <p>
     Please check some of the website creation work that we have done, you can use it as a web design
     reference.
   </p>
