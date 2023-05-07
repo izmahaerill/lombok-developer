@@ -16,7 +16,7 @@
 <section class="container flex flex-col justify-between md:flex lg:flex-row">
   <div class="card rounded-sm p-5 shadow-md lg:leading-loose">
     <div class="icon">
-      <span class="fas fa-map-marker-alt primary-clr-bg" /><span>Company Address</span>
+      <span class="fas fa-map-marker-alt primary-clr-bg" /><span>Lombok Developer Address</span>
       <p>Garden View Residence, Jalan Transmigrasi No. A8, Monjok Timur, Mataram.</p>
     </div>
 

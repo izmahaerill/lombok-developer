@@ -1,6 +1,7 @@
 <script lang="ts">
   import { serviceLists } from '$lib/constants'
   import { devProductivity } from '$lib/images'
+  import Iconify from '@iconify/svelte'
 </script>
 
 <section class="container py-32">
