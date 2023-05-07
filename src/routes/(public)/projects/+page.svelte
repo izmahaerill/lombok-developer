@@ -15,8 +15,7 @@
     <section>
 	<div class="flex-col md:flex-wrap lg:flex-row justify-between mt-2">
 		<div class="flex-col md:flex-wrap lg:flex-row mt-2">
-			<img src={global} alt="" width="30rem">
-			<button class="text-3xl font-bold mb-5 btn btn-outline btn-success" on:click={tab1}>View All project</button>
+			<button class="text-2xl rounded-sm font-bold mb-5 btn btn-outline btn-success " on:click={tab1}>View All project</button>
 		</div>
 	{#if tab1Content}
 	<Content />	

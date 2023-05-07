@@ -21,7 +21,7 @@
 	</div>
   </div>
 
-  <div class="card-bordered rounded-sm card py-20">
+  <div class="card-bordered rounded-sm card my-20">
 	<div class="p-5">
 		<p class="text-center text-2xl font-semibold py-10">{car.name}</p>
 		<div class="flex-col gap-5 md:flex lg:flex-row justify-evenly">
@@ -31,7 +31,7 @@
 	</div>
   </div>
 
-  <div class="card-bordered rounded-sm card py-20">
+  <div class="card-bordered rounded-sm card my-20">
 	<div class="p-5">
 		<p class="text-center text-2xl font-semibold py-10">{car.name}</p>
 		<div class="flex-col gap-5 md:flex lg:flex-row justify-evenly">

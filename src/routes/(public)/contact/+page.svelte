@@ -6,36 +6,17 @@
   import Iconify from '@iconify/svelte'
 </script>
 
-<section class="container py-32">
-  <div class="">
-    <p class="text-2xl font-semibold text-emerald-300 lg:text-3xl">CONTACT OUR CREATIVE TEAM</p>
-    <p class="text-gray-400">Got any Questions?</p>
-  </div>
-</section>
 
-<section class="container flex flex-col justify-between md:flex lg:flex-row">
-  <div class="card rounded-sm p-5 shadow-md lg:leading-loose">
-    <div class="icon">
-      <span class="fas fa-map-marker-alt primary-clr-bg" /><span>Lombok Developer Address</span>
-      <p>Garden View Residence, Jalan Transmigrasi No. A8, Monjok Timur, Mataram.</p>
-    </div>
 
-    <div class="icon">
-      <span class="fa fa-phone text-primary" /> Phone Number
-      <p>+62 878-6445-3407</p>
-    </div>
-
-    <div class="icon">
-      <span class="far fa-envelope" /> Send Email
-      <p>mail@lombokdeveloper.co.id</p>
-    </div>
+<section class="container flex flex-col justify-between md:flex lg:flex-row py-32">
+  <div class="p-5">
+      <p class="bg-gradient-to-r from-primary to-neutral bg-clip-text text-transparent lg:text-3xl font-bold">CONTACT OUR CREATIVE TEAM</p>
+      <p class="text-gray-400">Got any Questions?</p>
   </div>
 
   <div class="body-font text-gray-600">
     <div class="card rounded-sm p-5 shadow-md">
       <div>
-        <h2 class="title-font mb-1 text-xl font-medium text-gray-900">Contact Lombok Developer</h2>
-
         <div class="relative mb-4">
           <label for="fullname" class="text-sm leading-7 text-gray-600">Full Name</label>
           <input

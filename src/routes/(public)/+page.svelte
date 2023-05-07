@@ -98,3 +98,33 @@
   </p>
   <SliderExample />
 </section>
+
+
+<section class="container py-20">
+      <p class="text-center text-4xl font-semibold py-10 bg-gradient-to-r from-neutral to-primary bg-clip-text text-transparent">NEWS</p>
+      <div class=" flex-col gap-2 md:flex lg:flex-row justify-evenly">
+        <div class="card rounded-sm card-compact bg-base-100 shadow-xl mb-2">
+          <figure><img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHdlYnNpdGUlMjBmb3Jmb2xpb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60" alt="Shoes" /></figure>
+          <div class="card-body">
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+          </div>
+        </div>
+        <div class="card rounded-sm card-compact bg-base-100 shadow-xl mb-2">
+          <figure><img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHdlYnNpdGUlMjBmb3Jmb2xpb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60" alt="Shoes" /></figure>
+          <div class="card-body">
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+          </div>
+        </div>
+        <div class="card rounded-sm card-compact bg-base-100 shadow-xl mb-2">
+          <figure><img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHdlYnNpdGUlMjBmb3Jmb2xpb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60" alt="Shoes" /></figure>
+          <div class="card-body">
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+          </div>
+        </div>
+
+      </div>
+      <a class="btn btn-outlinecapitalize mt-5 rounded-sm flex" href={`${base}/contact`}> View News </a>
+</section>
+
+
+
