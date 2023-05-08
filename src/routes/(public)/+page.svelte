@@ -1,7 +1,7 @@
 <script lang="ts">
   import { base } from '$app/paths'
   import Price from '$lib/components/home/price.svelte'
-  import SliderExample from '$lib/components/slider-example.svelte'
+  import SliderExample from '$lib/components/SliderExample.svelte'
   import { serviceLists } from '$lib/constants'
   // import { businessDecisions, devProductivity } from '$lib/images'
   // import Iconify from '@iconify/svelte'

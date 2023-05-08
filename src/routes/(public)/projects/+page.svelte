@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Content from '$lib/components/content.svelte'
+  import Content from '$lib/components/Content.svelte'
   // import global from '$lib/images/handphone.svg'
 
   let tab1Content = false
