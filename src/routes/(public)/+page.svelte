@@ -4,6 +4,9 @@
   import SliderExample from '$lib/components/slider-example.svelte'
   import { serviceLists } from '$lib/constants'
   import { businessDecisions, devProductivity } from '$lib/images'
+  import Iconify from '@iconify/svelte'
+
+  
 </script>
 
 <section>
@@ -28,7 +31,7 @@
   </div>
 </section>
 
-<section class="container py-52 text-center">
+<section class="container py-32 text-center">
   <h2 class="mb-5 text-4xl font-bold">
     <span class="bg-gradient-to-r from-primary to-neutral bg-clip-text text-transparent">
       Your Digital Business Solution Partner
@@ -41,25 +44,7 @@
   </p>
 </section>
 
-<section class="flex flex-col items-center justify-center lg:flex-row">
-  <div class="container bg-primary py-16 md:py-10 lg:py-28">
-    <img class="h-fit w-fit" src={businessDecisions} alt="Business Decisions" />
-  </div>
-  <div class="container bg-neutral py-20 text-neutral-content md:py-28 lg:py-14">
-    <h2 class="mb-5 text-4xl font-bold">
-      <span class="bg-gradient-to-r from-primary to-neutral-content bg-clip-text text-transparent">
-        Solutions for Your Business's Digital Branding Needs
-      </span>
-    </h2>
-    <p class="text-justify leading-relaxed">
-      Lombok Developer is a group of young people who are creative in interactive multimedia and use
-      it to develop information technology in Lombok and Mataram. They aim to improve people's
-      lives, strengthen economic resilience, and create more business opportunities for digital
-      entrepreneurs. They provide business solutions ranging from design, website development,
-      software development, and application development.
-    </p>
-  </div>
-</section>
+
 
 <section class="container py-52">
   <h2 class="mb-10 text-center text-4xl font-bold">
@@ -85,7 +70,7 @@
     {#each serviceLists as service}
       <div class="card-bordered card w-full md:w-5/12 lg:w-1/3">
         <figure class="px-5 pt-5">
-          <img class="h-fit w-fit" src={devProductivity} alt="Dev Productivity" />
+          <!-- <Iconify class="text-5xl" icon="material-symbols:home-app-logo"/> -->
         </figure>
         <div class="card-body">
           <h2 class="card-title">{service.title}</h2>
@@ -99,6 +84,8 @@
   </div>
 </section>
 
+
+
 <section class="py-52 text-center">
   <h2 class="mb-5 text-4xl font-bold">
     <span class="bg-gradient-to-r from-neutral to-primary bg-clip-text text-transparent">
@@ -111,3 +98,33 @@
   </p>
   <SliderExample />
 </section>
+
+
+<section class="container py-20">
+      <p class="text-center text-4xl font-semibold py-10 bg-gradient-to-r from-neutral to-primary bg-clip-text text-transparent">NEWS</p>
+      <div class=" flex-col gap-2 md:flex lg:flex-row justify-evenly">
+        <div class="card rounded-sm card-compact bg-base-100 shadow-xl mb-2">
+          <figure><img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHdlYnNpdGUlMjBmb3Jmb2xpb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60" alt="Shoes" /></figure>
+          <div class="card-body">
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+          </div>
+        </div>
+        <div class="card rounded-sm card-compact bg-base-100 shadow-xl mb-2">
+          <figure><img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHdlYnNpdGUlMjBmb3Jmb2xpb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60" alt="Shoes" /></figure>
+          <div class="card-body">
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+          </div>
+        </div>
+        <div class="card rounded-sm card-compact bg-base-100 shadow-xl mb-2">
+          <figure><img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHdlYnNpdGUlMjBmb3Jmb2xpb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60" alt="Shoes" /></figure>
+          <div class="card-body">
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+          </div>
+        </div>
+
+      </div>
+      <a class="btn btn-outlinecapitalize mt-5 rounded-sm flex" href={`${base}/contact`}> View News </a>
+</section>
+
+
+
