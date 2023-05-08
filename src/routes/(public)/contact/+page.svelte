@@ -6,12 +6,13 @@
   import Iconify from '@iconify/svelte'
 </script>
 
-
-
-<section class="container flex flex-col justify-between md:flex lg:flex-row py-32">
+<section class="container flex flex-col justify-between py-32 md:flex lg:flex-row">
   <div class="p-5">
-      <p class="bg-gradient-to-r from-primary to-neutral bg-clip-text text-transparent lg:text-3xl font-bold">CONTACT OUR CREATIVE TEAM</p>
-      <p class="text-gray-400">Got any Questions?</p>
+    <p
+      class="bg-gradient-to-r from-primary to-neutral bg-clip-text font-bold text-transparent lg:text-3xl">
+      CONTACT OUR CREATIVE TEAM
+    </p>
+    <p class="text-gray-400">Got any Questions?</p>
   </div>
 
   <div class="body-font text-gray-600">
