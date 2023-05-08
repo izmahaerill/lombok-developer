@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   const carName = [
     {
       name: 'comunity website',

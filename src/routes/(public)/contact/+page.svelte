@@ -1,9 +1,9 @@
 <script lang="ts">
   import { base } from '$app/paths'
-  import SliderExample from '$lib/components/slider-example.svelte'
-  import { serviceLists } from '$lib/constants'
-  import { businessDecisions, devProductivity } from '$lib/images'
-  import Iconify from '@iconify/svelte'
+  // import SliderExample from '$lib/components/slider-example.svelte'
+  // import { serviceLists } from '$lib/constants'
+  // import { businessDecisions, devProductivity } from '$lib/images'
+  // import Iconify from '@iconify/svelte'
 </script>
 
 <section class="container flex flex-col justify-between py-32 md:flex lg:flex-row">

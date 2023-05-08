@@ -3,8 +3,8 @@
   import Price from '$lib/components/home/price.svelte'
   import SliderExample from '$lib/components/slider-example.svelte'
   import { serviceLists } from '$lib/constants'
-  import { businessDecisions, devProductivity } from '$lib/images'
-  import Iconify from '@iconify/svelte'
+  // import { businessDecisions, devProductivity } from '$lib/images'
+  // import Iconify from '@iconify/svelte'
 </script>
 
 <section>
@@ -130,5 +130,5 @@
       </div>
     </div>
   </div>
-  <a class="btn-outlinecapitalize btn mt-5 flex rounded-sm" href={`${base}/contact`}> View News </a>
+  <a class="btn-outlinecapitalize btn mt-5 flex rounded-sm" href={`${base}/contact`}>View News</a>
 </section>

@@ -1,12 +1,13 @@
-<script>
+<script lang="ts">
   import Content from '$lib/components/content.svelte'
-  import global from '$lib/images/handphone.svg'
-  let tab1Content = false
-  let tab2Content = false
+  // import global from '$lib/images/handphone.svg'
 
-  function tab1() {
+  let tab1Content = false
+  // let tab2Content = false
+
+  function viewAllProject() {
     tab1Content = !tab1Content
-    tab2Content = false
+    // tab2Content = false
   }
 </script>
 
@@ -16,7 +17,7 @@
       <div class="mt-2 flex-col md:flex-wrap lg:flex-row">
         <button
           class="btn-outline btn-success btn mb-5 rounded-sm text-2xl font-bold"
-          on:click={tab1}>View All project</button>
+          on:click={viewAllProject}>View All project</button>
       </div>
       {#if tab1Content}
         <Content />
