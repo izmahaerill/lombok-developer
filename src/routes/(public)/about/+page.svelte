@@ -1,6 +1,6 @@
-<script>
-  import Iconify from '@iconify/svelte'
-  import { businessDecisions, devProductivity } from '$lib/images'
+<script lang="ts">
+  // import Iconify from '@iconify/svelte'
+  // import { businessDecisions, devProductivity } from '$lib/images'
 </script>
 
 <section class="container py-32">
