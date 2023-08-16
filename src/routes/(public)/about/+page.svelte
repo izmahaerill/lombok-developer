@@ -4,7 +4,7 @@
 </script>
 
 <section class="container py-32">
-  <h6>hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</h6>
+  <h6>ini adalah perubahan</h6>
   <div class="py-20">
     <div class="flex-col md:flex lg:flex-row-reverse">
       <img
